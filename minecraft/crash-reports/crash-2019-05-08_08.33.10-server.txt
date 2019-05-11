@@ -1,0 +1,43 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 5/8/19 8:33 AM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at ll.<init>(SourceFile:53)
+	at us.a(SourceFile:913)
+	at us.a(SourceFile:648)
+	at us.a(SourceFile:729)
+	at us.a(SourceFile:848)
+	at ve.c(SourceFile:373)
+	at vg.m(SourceFile:951)
+	at vg.f(SourceFile:866)
+	at vg.c(SourceFile:845)
+	at xq.a(SourceFile:183)
+	at wa.c(SourceFile:111)
+	at wa.b(SourceFile:63)
+	at ja.a(SourceFile:239)
+	at vx.c(SourceFile:171)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:842)
+	at ug.b(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:764)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:632)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14
+	Operating System: Linux (amd64) version 4.9.0-8-amd64
+	Java Version: 1.8.0_212, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 108624 bytes (0 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	Player Count: 1 / 20; [vh['Rzz'/723368, l='world', x=29.62, y=63.00, z=11.45]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
